@@ -1,0 +1,51 @@
+.header-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    // padding: 35px 30px 35px 30px;
+
+    &__container {
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+        width: 100%;
+        box-shadow: 3px 0 20px 0 #0000000A;
+
+        
+    }
+    &__profile {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        
+    }
+    p {
+        text-decoration: underline;
+        color: #213F7D;
+    }
+}
+
+.search-form {
+    display: flex;
+    width: 400px;
+    height: 40px;
+    transform: translateX(-20%);
+    >input {
+        max-width: 444px;
+        padding: 12px 20px;
+        width: 100%;
+        background-color: white;
+        border-radius: 8px 0 0 8px;
+    }
+
+    >button {
+        background-color: #39CDCC;
+        padding: 12px 20px;
+        border-radius: 0 8px 8px 0;
+    }
+}

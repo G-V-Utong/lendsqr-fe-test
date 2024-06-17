@@ -1,0 +1,39 @@
+.login-container {
+    height: 100vh;
+    background-color: white;
+
+    &__content {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        &__left {
+            padding-left: 97px;
+            padding: 106px 97px 106px 97px;
+            height: 100vh;
+            background-color: #FFFFFF;
+            position: relative;
+
+            .screen {
+                height: 100vh;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: #545F7D;
+                opacity: 2.64%;
+                z-index: 1;
+            }
+
+            .login-logo {
+                position: relative;
+                margin-bottom: 140px;
+                z-index: 50;
+            }
+        }
+
+        &__right {
+            background-color: white;
+        }
+    }
+}

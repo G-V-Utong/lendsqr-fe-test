@@ -1,0 +1,20 @@
+.signinForm-container {
+    
+    margin: 24px 0 24px 0;
+    &__text {
+        font-size: 40px;
+        // font-weight: bolder;
+        color: #213F7D;
+        letter-spacing: -0.05em;
+        margin-bottom: 10px;
+    }
+    &__subtext {
+        font-size: 20px;
+        // font-weight: bolder;
+        color: #545F7D;
+        letter-spacing: -0.05em;
+        margin-bottom: 60px;
+        font-weight: lighter;
+        letter-spacing: normal;
+    }
+}
